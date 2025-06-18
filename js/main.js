@@ -11,6 +11,18 @@ toggle.addEventListener("click", () => {
   localStorage.setItem("theme", theme);
 });
 
+// === Expandable Sidebar Menu ===
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menuToggle");
+  const sideMenu = document.querySelector(".side-menu");
+
+  if (menuToggle && sideMenu) {
+    menuToggle.addEventListener("click", function () {
+      sideMenu.classList.toggle("active");
+    });
+  }
+});
+
 // === Carousel Functionality ===
 const track = document.querySelector(".carousel-track");
 const slides = Array.from(track.children);

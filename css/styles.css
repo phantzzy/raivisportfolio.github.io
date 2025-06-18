@@ -190,7 +190,7 @@ body.light-mode .logo img {
   border-radius: 8px;
 }
 
-/* === Responsive === */
+/* === Responsive 
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -213,7 +213,7 @@ body.light-mode .logo img {
   .navbar.bottom-nav {
     left: 0;
   }
-}
+}=== */
 
 body.light-mode {
   background-color: #1a1a1eff;
